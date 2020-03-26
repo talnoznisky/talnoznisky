@@ -22,6 +22,7 @@
   border-top-right-radius: 3px;
   font-size: 14px;
   font-weight: 600;
+  border-top: none;
 }
 
 .inner-box {
