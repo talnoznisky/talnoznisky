@@ -8,24 +8,41 @@
   <link rel='icon' href='favicon_io/favicon.ico' type='image/x-icon'>
   <link rel="stylesheet" href="style/normalize.css">
   <style>
+    #container {
+      width: 70%;
+      margin: 0 auto;
+    }
     img {
-      height: 75%;
+      height: auto;
+      width: 100%;
+      padding: 2px;
+      object-fit: cover;
     }
     p {
       font-family: monospace;
       margin: 1;
     }
     @media only screen and (max-width: 600px){
-        img {
-            height: auto;
-            width: 100%;
-        }
-    }    
+      #container {
+        width: 95%;
+      }
+    }
+  </style>
   </style>
 </head>
 
 <body>
   <div id='container'>
+    <p>New Jersey:</p>
+    <img src='images/IMG_0946.jpg'>
+    <p>Philadelphia:</p>
+    <img src='images/IMG_0529.jpg'>
+    <img src='images/IMG_5129.jpg'>
+    <img src='images/IMG_6511.jpg'>
+    <img src='images/IMG_7659.jpg'>
+    <img src='images/IMG_7766.jpg'>
+    <p>St. Paul:</p>
+    <img src='images/IMG_6996.jpg'>
   </div>
 </body>
 </html>
