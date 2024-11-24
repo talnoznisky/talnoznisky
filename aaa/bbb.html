@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" style="visibility: visible;"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -17,21 +15,32 @@
             max-height: 100vh;
         }
         .image-container img {
-            width: 50%; 
-            height: 50%;
+            aspect-ratio: 1/1;
             object-fit: cover;
             box-sizing: border-box;
-            border: 2px solid #fff;
+        }
+        .row {
+            display: flex;
+            width: 100%;
+            height: 50%;
         }
     </style>
 </head>
 <body>
 
 <div class="image-container">
-    <img src="./gifs/blobs_1-LXTC1S1QIP.gif">
-    <img src="./gifs/blobs_2-8PMTFG7MHL.gif">
-    <img src="./gifs/blobs_2-JEPQN1MS88.gif">
-    <img src="./gifs/blobs_1-RYEHG9QEJ0.gif">
+    <div class="row">
+        <img src="./gifs/blobs_1-LXTC1S1QIP.gif">
+        <img src="./gifs/blobs_2-8PMTFG7MHL.gif">
+        <img src="./gifs/blobs_1-RYEHG9QEJ0.gif">
+    </div>
+    <div class="row">
+        <img src="./gifs/blobs_2-JEPQN1MS88.gif">
+        <img src="./gifs/blobs_1-RYEHG9QEJ0.gif">
+        <img src="./gifs/blobs_2-8PMTFG7MHL.gif">
+    </div>
+
 </div>
-</body>
-</html>
+
+
+</body></html>
